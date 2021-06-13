@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACA1599D2676C56200529E39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1599C2676C56200529E39 /* AppDelegate.swift */; };
+		ACA1599F2676C56200529E39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1599E2676C56200529E39 /* SceneDelegate.swift */; };
+		ACA159A12676C56200529E39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA159A02676C56200529E39 /* ViewController.swift */; };
+		ACA159A42676C56200529E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA159A22676C56200529E39 /* Main.storyboard */; };
+		ACA159A62676C56700529E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA159A52676C56700529E39 /* Assets.xcassets */; };
+		ACA159A92676C56700529E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA159A72676C56700529E39 /* LaunchScreen.storyboard */; };
+		ACA159B42676C56800529E39 /* NYC_Subway_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA159B32676C56800529E39 /* NYC_Subway_MapTests.swift */; };
+		ACA159BF2676C56800529E39 /* NYC_Subway_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA159BE2676C56800529E39 /* NYC_Subway_MapUITests.swift */; };
+		ACA159CD2676C65400529E39 /* Subway_Map.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ACA159CC2676C65400529E39 /* Subway_Map.pdf */; };
+		ACA159CF2676C91300529E39 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA159CE2676C91300529E39 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACA159B02676C56800529E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA159912676C56200529E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA159982676C56200529E39;
+			remoteInfo = "NYC Subway Map";
+		};
+		ACA159BB2676C56800529E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA159912676C56200529E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA159982676C56200529E39;
+			remoteInfo = "NYC Subway Map";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACA159992676C56200529E39 /* NYC Subway Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYC Subway Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA1599C2676C56200529E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACA1599E2676C56200529E39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACA159A02676C56200529E39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACA159A32676C56200529E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACA159A52676C56700529E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "NYC Subway Map/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		ACA159A82676C56700529E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACA159AA2676C56700529E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "NYC Subway Map/Info.plist"; sourceTree = SOURCE_ROOT; };
+		ACA159AF2676C56800529E39 /* NYC Subway MapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYC Subway MapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA159B32676C56800529E39 /* NYC_Subway_MapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYC_Subway_MapTests.swift; sourceTree = "<group>"; };
+		ACA159B52676C56800529E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA159BA2676C56800529E39 /* NYC Subway MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYC Subway MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA159BE2676C56800529E39 /* NYC_Subway_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYC_Subway_MapUITests.swift; sourceTree = "<group>"; };
+		ACA159C02676C56800529E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA159CC2676C65400529E39 /* Subway_Map.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Subway_Map.pdf; sourceTree = SOURCE_ROOT; };
+		ACA159CE2676C91300529E39 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACA159962676C56200529E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA159AC2676C56800529E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA159B72676C56800529E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACA159902676C56200529E39 = {
+			isa = PBXGroup;
+			children = (
+				ACA1599B2676C56200529E39 /* NYC Subway Map */,
+				ACA159B22676C56800529E39 /* NYC Subway MapTests */,
+				ACA159BD2676C56800529E39 /* NYC Subway MapUITests */,
+				ACA1599A2676C56200529E39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACA1599A2676C56200529E39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACA159992676C56200529E39 /* NYC Subway Map.app */,
+				ACA159AF2676C56800529E39 /* NYC Subway MapTests.xctest */,
+				ACA159BA2676C56800529E39 /* NYC Subway MapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACA1599B2676C56200529E39 /* NYC Subway Map */ = {
+			isa = PBXGroup;
+			children = (
+				ACA159CC2676C65400529E39 /* Subway_Map.pdf */,
+				ACA1599C2676C56200529E39 /* AppDelegate.swift */,
+				ACA1599E2676C56200529E39 /* SceneDelegate.swift */,
+				ACA159A02676C56200529E39 /* ViewController.swift */,
+				ACA159A22676C56200529E39 /* Main.storyboard */,
+				ACA159A52676C56700529E39 /* Assets.xcassets */,
+				ACA159CE2676C91300529E39 /* icon.png */,
+				ACA159A72676C56700529E39 /* LaunchScreen.storyboard */,
+				ACA159AA2676C56700529E39 /* Info.plist */,
+			);
+			path = "NYC Subway Map";
+			sourceTree = "<group>";
+		};
+		ACA159B22676C56800529E39 /* NYC Subway MapTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA159B32676C56800529E39 /* NYC_Subway_MapTests.swift */,
+				ACA159B52676C56800529E39 /* Info.plist */,
+			);
+			path = "NYC Subway MapTests";
+			sourceTree = "<group>";
+		};
+		ACA159BD2676C56800529E39 /* NYC Subway MapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA159BE2676C56800529E39 /* NYC_Subway_MapUITests.swift */,
+				ACA159C02676C56800529E39 /* Info.plist */,
+			);
+			path = "NYC Subway MapUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACA159982676C56200529E39 /* NYC Subway Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA159C32676C56800529E39 /* Build configuration list for PBXNativeTarget "NYC Subway Map" */;
+			buildPhases = (
+				ACA159952676C56200529E39 /* Sources */,
+				ACA159962676C56200529E39 /* Frameworks */,
+				ACA159972676C56200529E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NYC Subway Map";
+			productName = "NYC Subway Map";
+			productReference = ACA159992676C56200529E39 /* NYC Subway Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACA159AE2676C56800529E39 /* NYC Subway MapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA159C62676C56800529E39 /* Build configuration list for PBXNativeTarget "NYC Subway MapTests" */;
+			buildPhases = (
+				ACA159AB2676C56800529E39 /* Sources */,
+				ACA159AC2676C56800529E39 /* Frameworks */,
+				ACA159AD2676C56800529E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA159B12676C56800529E39 /* PBXTargetDependency */,
+			);
+			name = "NYC Subway MapTests";
+			productName = "NYC Subway MapTests";
+			productReference = ACA159AF2676C56800529E39 /* NYC Subway MapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACA159B92676C56800529E39 /* NYC Subway MapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA159C92676C56800529E39 /* Build configuration list for PBXNativeTarget "NYC Subway MapUITests" */;
+			buildPhases = (
+				ACA159B62676C56800529E39 /* Sources */,
+				ACA159B72676C56800529E39 /* Frameworks */,
+				ACA159B82676C56800529E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA159BC2676C56800529E39 /* PBXTargetDependency */,
+			);
+			name = "NYC Subway MapUITests";
+			productName = "NYC Subway MapUITests";
+			productReference = ACA159BA2676C56800529E39 /* NYC Subway MapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACA159912676C56200529E39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					ACA159982676C56200529E39 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					ACA159AE2676C56800529E39 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = ACA159982676C56200529E39;
+					};
+					ACA159B92676C56800529E39 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = ACA159982676C56200529E39;
+					};
+				};
+			};
+			buildConfigurationList = ACA159942676C56200529E39 /* Build configuration list for PBXProject "NYC Subway Map" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACA159902676C56200529E39;
+			productRefGroup = ACA1599A2676C56200529E39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACA159982676C56200529E39 /* NYC Subway Map */,
+				ACA159AE2676C56800529E39 /* NYC Subway MapTests */,
+				ACA159B92676C56800529E39 /* NYC Subway MapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACA159972676C56200529E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA159A92676C56700529E39 /* LaunchScreen.storyboard in Resources */,
+				ACA159CF2676C91300529E39 /* icon.png in Resources */,
+				ACA159A62676C56700529E39 /* Assets.xcassets in Resources */,
+				ACA159CD2676C65400529E39 /* Subway_Map.pdf in Resources */,
+				ACA159A42676C56200529E39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA159AD2676C56800529E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA159B82676C56800529E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACA159952676C56200529E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA159A12676C56200529E39 /* ViewController.swift in Sources */,
+				ACA1599D2676C56200529E39 /* AppDelegate.swift in Sources */,
+				ACA1599F2676C56200529E39 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA159AB2676C56800529E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA159B42676C56800529E39 /* NYC_Subway_MapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA159B62676C56800529E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA159BF2676C56800529E39 /* NYC_Subway_MapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACA159B12676C56800529E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA159982676C56200529E39 /* NYC Subway Map */;
+			targetProxy = ACA159B02676C56800529E39 /* PBXContainerItemProxy */;
+		};
+		ACA159BC2676C56800529E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA159982676C56200529E39 /* NYC Subway Map */;
+			targetProxy = ACA159BB2676C56800529E39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACA159A22676C56200529E39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA159A32676C56200529E39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACA159A72676C56700529E39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA159A82676C56700529E39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACA159C12676C56800529E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACA159C22676C56800529E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACA159C42676C56800529E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VX336J9D6;
+				INFOPLIST_FILE = "NYC Subway Map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KevynMartinez.NYC-Subway-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACA159C52676C56800529E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VX336J9D6;
+				INFOPLIST_FILE = "NYC Subway Map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KevynMartinez.NYC-Subway-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACA159C72676C56800529E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VX336J9D6;
+				INFOPLIST_FILE = "NYC Subway MapTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KevynMartinez.NYC-Subway-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYC Subway Map.app/NYC Subway Map";
+			};
+			name = Debug;
+		};
+		ACA159C82676C56800529E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VX336J9D6;
+				INFOPLIST_FILE = "NYC Subway MapTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KevynMartinez.NYC-Subway-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYC Subway Map.app/NYC Subway Map";
+			};
+			name = Release;
+		};
+		ACA159CA2676C56800529E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VX336J9D6;
+				INFOPLIST_FILE = "NYC Subway MapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KevynMartinez.NYC-Subway-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NYC Subway Map";
+			};
+			name = Debug;
+		};
+		ACA159CB2676C56800529E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VX336J9D6;
+				INFOPLIST_FILE = "NYC Subway MapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KevynMartinez.NYC-Subway-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NYC Subway Map";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACA159942676C56200529E39 /* Build configuration list for PBXProject "NYC Subway Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA159C12676C56800529E39 /* Debug */,
+				ACA159C22676C56800529E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA159C32676C56800529E39 /* Build configuration list for PBXNativeTarget "NYC Subway Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA159C42676C56800529E39 /* Debug */,
+				ACA159C52676C56800529E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA159C62676C56800529E39 /* Build configuration list for PBXNativeTarget "NYC Subway MapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA159C72676C56800529E39 /* Debug */,
+				ACA159C82676C56800529E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA159C92676C56800529E39 /* Build configuration list for PBXNativeTarget "NYC Subway MapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA159CA2676C56800529E39 /* Debug */,
+				ACA159CB2676C56800529E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACA159912676C56200529E39 /* Project object */;
+}
