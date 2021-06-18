@@ -10,7 +10,6 @@
 		ACA1599D2676C56200529E39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1599C2676C56200529E39 /* AppDelegate.swift */; };
 		ACA1599F2676C56200529E39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1599E2676C56200529E39 /* SceneDelegate.swift */; };
 		ACA159A12676C56200529E39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA159A02676C56200529E39 /* ViewController.swift */; };
-		ACA159A42676C56200529E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA159A22676C56200529E39 /* Main.storyboard */; };
 		ACA159A62676C56700529E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA159A52676C56700529E39 /* Assets.xcassets */; };
 		ACA159A92676C56700529E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA159A72676C56700529E39 /* LaunchScreen.storyboard */; };
 		ACA159B42676C56800529E39 /* NYC_Subway_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA159B32676C56800529E39 /* NYC_Subway_MapTests.swift */; };
@@ -41,7 +40,6 @@
 		ACA1599C2676C56200529E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACA1599E2676C56200529E39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ACA159A02676C56200529E39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ACA159A32676C56200529E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACA159A52676C56700529E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "NYC Subway Map/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		ACA159A82676C56700529E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACA159AA2676C56700529E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "NYC Subway Map/Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -51,8 +49,8 @@
 		ACA159BA2676C56800529E39 /* NYC Subway MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYC Subway MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA159BE2676C56800529E39 /* NYC_Subway_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYC_Subway_MapUITests.swift; sourceTree = "<group>"; };
 		ACA159C02676C56800529E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACA159CC2676C65400529E39 /* Subway_Map.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Subway_Map.pdf; sourceTree = SOURCE_ROOT; };
-		ACA159CE2676C91300529E39 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = SOURCE_ROOT; };
+		ACA159CC2676C65400529E39 /* Subway_Map.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Subway_Map.pdf; path = "NYC Subway Map/Resources/Subway_Map.pdf"; sourceTree = SOURCE_ROOT; };
+		ACA159CE2676C91300529E39 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "NYC Subway Map/Resources/icon.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +78,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC37B0BD267C1A5D002C4BB5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1599C2676C56200529E39 /* AppDelegate.swift */,
+				ACA1599E2676C56200529E39 /* SceneDelegate.swift */,
+				ACA159A72676C56700529E39 /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AC37B0BE267C1D41002C4BB5 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				ACA159A02676C56200529E39 /* ViewController.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		AC37B0BF267C1D68002C4BB5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACA159CE2676C91300529E39 /* icon.png */,
+				ACA159CC2676C65400529E39 /* Subway_Map.pdf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		ACA159902676C56200529E39 = {
 			isa = PBXGroup;
 			children = (
@@ -103,14 +128,10 @@
 		ACA1599B2676C56200529E39 /* NYC Subway Map */ = {
 			isa = PBXGroup;
 			children = (
-				ACA159CC2676C65400529E39 /* Subway_Map.pdf */,
-				ACA1599C2676C56200529E39 /* AppDelegate.swift */,
-				ACA1599E2676C56200529E39 /* SceneDelegate.swift */,
-				ACA159A02676C56200529E39 /* ViewController.swift */,
-				ACA159A22676C56200529E39 /* Main.storyboard */,
+				AC37B0BF267C1D68002C4BB5 /* Resources */,
+				AC37B0BE267C1D41002C4BB5 /* Features */,
+				AC37B0BD267C1A5D002C4BB5 /* App */,
 				ACA159A52676C56700529E39 /* Assets.xcassets */,
-				ACA159CE2676C91300529E39 /* icon.png */,
-				ACA159A72676C56700529E39 /* LaunchScreen.storyboard */,
 				ACA159AA2676C56700529E39 /* Info.plist */,
 			);
 			path = "NYC Subway Map";
@@ -241,7 +262,6 @@
 				ACA159CF2676C91300529E39 /* icon.png in Resources */,
 				ACA159A62676C56700529E39 /* Assets.xcassets in Resources */,
 				ACA159CD2676C65400529E39 /* Subway_Map.pdf in Resources */,
-				ACA159A42676C56200529E39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,14 +324,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ACA159A22676C56200529E39 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACA159A32676C56200529E39 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ACA159A72676C56700529E39 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
