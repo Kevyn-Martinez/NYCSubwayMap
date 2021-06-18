@@ -1,0 +1,11 @@
+name: NYTransport
+options:
+  bundleIdPrefix: com.nytransport
+targets:
+  NYTransport:
+    type: application
+    platform: iOS
+    deploymentTarget: "13.0"
+    sources: [NYTransport]
+    dependencies:
+      - sdk: libc++.tbd
